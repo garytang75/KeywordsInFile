@@ -1,0 +1,63 @@
+if there is an active exception then if an exception is raised again,
+it leads to termination of program.
+, there is no way to distinguish between these conditions from inside a destructor. 
+As a result, you must write your destructors under the conservative assumption that an exception is active,
+
+
+
+
+
+
+
+variety of 3rd party sources (or even applications you develop yourself) on your server. Python is cross-platform, meaning that you can run it on a 
+
+
+number of different operating systems, including Windows VPS Server.
+
+
+
+
+sun
+
+
+
+
+
+word
+
+Hi,
+I get the "Debug assertion failed" error when my program ends. I've been trying to fix it for a long time and just can't find the cause. Even my prof in uni said he sees nothing wrong. So you are my last hope, stackoverllow. Please help.
+
+The program finds the intersection of two lists and then checks if the third list is a subset of the intersection.
+
+The screenshot of the error:
+
+
+Consider a word to contain only upper- and lower- alphabet symbols. Any non-alphabet symbol is considered a separator.
+
+Your class should be case-sensitive. So, “sun” and “Sun” are two different words.
+The processing of the files is done during the object construction. All the data needed for the methods below is stored in the object.
+
+The processing should be done in O(N+M) time. Consider string hashing to be O(1) for this assignment.
+
+The number of keywords can be large. The text can be large. Number of keywords in the text can be very large or very small. Design your class accordingly.
+
+Line numbers start from 1.
+
+
+
+
+
+
+
+The earlier answer is essentially accurate. We use computers to solve real world problems. Any processor time spent by an OS on solving a user problem is “useful” time. Any time spent by an OS on just being an OS is overhead. In that sense context switching is an overhead because it is time spent on an OS function.
+
+But if the implied question is: “Why is context switching necessary if it is overhead” the answer is more nuanced. Context switching is used in multitasking computers and is the basic mechanism to switch from one task to another task before the former task has been completed.
+
+Any time an OS can have multiple concurrently running tasks there are other priorities to be addressed apart from merely “minimizing overhead”.
+There are criteria like fairness, etc. that make context switching useful. Fairness would be ensuring that every process gets an equal shot at completing
+in a reasonable amount of time - even if it reduces overall OS efficiency. Another obvious reason for a context switch is when one process makes a disk requ
+est and is waiting for a response the processor can be switched to another task rather than wasting cycles just waiting. In this example, the OS efficiency is actu
+ally improved by context switching. Because we are replacing a very wasteful activity (busy wait for disk) by only a marginally wa
+steful activity (context switching).
+Overall there is a massive efficiency improvement.
